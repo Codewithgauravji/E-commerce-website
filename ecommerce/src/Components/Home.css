@@ -1,0 +1,42 @@
+.main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #f8f8f8;
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+  }
+
+  .feature-item {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .feature-item img {
+    max-width: 80px;
+    margin-bottom: 15px;
+  }
+
+  .feature-item h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  #img2 :hover{
+    opacity: 0.5;
+  }
+  #img2{
+    opacity: 50;
+  }
+  
