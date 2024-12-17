@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from './Header'
 import Carousel from 'react-bootstrap/Carousel';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import "./Footer.css"; 
 import './Home.css'
@@ -16,21 +16,21 @@ function Home() {
             {/* first slider */}
             <Carousel>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-MHP-25112024-mainbanner-z1-p1-winterfest-3060.gif' alt='First image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-WHP-051224-BBS-GO%20LIVE%20(1)%201.gif' alt='First image' style={{ height: "70vh", width: "100%" }} />
                     <Carousel.Caption>
                         {/* <h3 style={{color:"blue"}}>Sale start now</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-251122-1.0-MHP-mainbanner-z1-p2-beardo-wildstone-upto65+extra25.jpg' alt='second image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-WHP-061224-MAINBANNER-Z1-P6-GAP-MS-MIN30.jpg' alt='second image' style={{ height: "70vh", width: "100%" }} />
                     <Carousel.Caption>
                         {/* <h3 style={{color:"blue"}}>Welcome to my shop</h3> */}
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-251122-1.0-MHP-mainbanner-z1-p3-skechers-reebok-min30.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-WHP-061224-MAINBANNER-Z1-P7-TRINK-THEPARI-MIN80.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                     <Carousel.Caption>
                         {/* <h3 style={{color:"blue"}}>30% OFF</h3> */}
                         {/* <p>
@@ -39,7 +39,7 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-251122-1.0-MHP-mainbanner-z1-p4-indianterrain-montecarlo-min35.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-WHP-061224-MAINBANNER-Z1-P2-CAMPUS-SUTRA-HIGHSTAR-MIN50.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                     <Carousel.Caption>
                         {/* <h3 style={{color:"blue"}}>30% OFF</h3> */}
                         {/* <p>
@@ -48,7 +48,7 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-251122-1.0-MHP-mainbanner-z1-p5-tigc-dennislingo-min60.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-WHP-061224-MAINBANNER-Z1-P3-FABINDIA-W-MIN30.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                     <Carousel.Caption>
                         {/* <h3 style={{color:"blue"}}>30% OFF</h3> */}
                         {/* <p>
@@ -57,7 +57,7 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-251122-1.0-MHP-mainbanner-z1-p6-asos-upto35.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-WHP-061224-MAINBANNER-Z1-P4-FABNEX-WOMENSTER-MIN75.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                     <Carousel.Caption>
                         {/* <h3 style={{color:"blue"}}>30% OFF</h3> */}
                         {/* <p>
@@ -66,7 +66,7 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-251122-1.0-MHP-mainbanner-z1-p7-gap-ax-upto40.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-WHP-061224-MAINBANNER-Z1-P5-AVAASA-FUSION-MIN60.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                     <Carousel.Caption>
                         {/* <h3 style={{color:"blue"}}>30% OFF</h3> */}
                         {/* <p>
@@ -173,44 +173,26 @@ function Home() {
 
 
             {/* third slider */}
-            <Carousel>
-                <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-1.0-19112024-UHP-oneminutedeal-notifyme.gif' id="img2" alt='First image' style={{ height: "70vh", width: "100%", marginTop: "20px",opacity:"100px" }} />
-                    <Carousel.Caption>
-                        {/* <h3 style={{color:"blue"}}>Sale start now</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/Desktop_NewUser_1440x470px_28102024.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
-                    <Carousel.Caption>
-                        {/* <h3 style={{color:"blue"}}>30% OFF</h3> */}
-                        {/* <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p> */}
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/Desktop_newuser_1440x470.jpg' id="img2" alt='First image' style={{ height: "70vh", width: "100%", marginTop: "20px",opacity:"100px" }} />
 
-            <h1 style={{ textAlign: "center", fontFamily: "monospace", marginTop: "20px" }}>Fashions This Fall</h1>
-            <h1 style={{ textAlign: "center", fontFamily: "serif", marginTop: "30px" }}>The Crust Of Style</h1>
+            <h1 style={{ textAlign: "center", fontFamily: "monospace", marginTop: "20px" }}>Sponsor Showdown</h1>
 
             {/* fourth slider */}
             <Carousel>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-221124-1.0-MHP-topbanner-z2-p1-puma-adidas-under1599.jpg' alt='First image' style={{ height: "70vh", width: "100%", marginTop: "20px" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D_1.0_WHP_SC_ADIDAS_P1.jpg' alt='First image' style={{ height: "70vh", width: "100%", marginTop: "20px" }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-221124-1.0-MHP-topbanner-z2-p2-vanhuesen-allensolly-upto60.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D_1.0_WHP_SC_SUPERDRY_P2.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-221124-1.0-MHP-topbanner-z2-p3-maniac-eyebogler-min-70.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D_1.0_WHP_SC_H.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-221124-1.0-MHP-topbanner-z2-p4-puma-nike-upto60.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D_1.0_WHP_SC_JOckey_P4.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D-221124-1.0-MHP-topbanner-z2-p5-gas-gant-upto50.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
+                    <img src='https://assets.ajio.com/cms/AJIO/WEB/D_1.0_WHP_SC_PUMA_P6.jpg' alt='third image' style={{ height: "70vh", width: "100%" }} />
                 </Carousel.Item>
             </Carousel>
             {/* fourth slider end */}

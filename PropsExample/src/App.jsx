@@ -1,14 +1,15 @@
-import ParentComponents from './ParentComponents'
+// import ParentComponents from './ParentComponents'
 import './App.css'
-import Form1 from './Form1'
+// import Form1 from './Form1'
+import Two from './Two'
 
 function App() {
 
   return (
     <>
       <div>
-       <ParentComponents/>
-       <Form1/>
+       {/* <ParentComponents/> */}
+       <Two/>
       </div>
     </>
   )

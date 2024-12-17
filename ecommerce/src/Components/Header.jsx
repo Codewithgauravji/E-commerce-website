@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#"><span style={{color:"orangered",fontWeight:"800",fontSize:"36px"}}>Big</span> Deal <span style={{color:"orangered",fontWeight:"800",fontSize:"36px"}}>Sale</span></Navbar.Brand>
+        <Navbar.Brand><Link to="/" style={{textDecoration:"none"}}> <span style={{color:"orangered",fontWeight:"800",fontSize:"36px"}}>Big</span> Deal <span style={{color:"orangered",fontWeight:"800",fontSize:"36px"}}>Sale</span></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,13 +17,15 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Man's Wear</Nav.Link>
-            <Nav.Link href="#action2">Women's Wear</Nav.Link>
-            <Nav.Link href="#action2">Kid's Wear</Nav.Link>
+            <Nav.Link ><Link to="ecommerce" style={{textDecoration:"none",color:"black",fontWeight:"500"}}>Man's Wear</Link> </Nav.Link>
+            <Nav.Link>Women's Wear</Nav.Link>
+            <Nav.Link>Kid's Wear</Nav.Link>
             <Nav.Link href="#action2">Grocery</Nav.Link>
             <Nav.Link href="#action2">Mobiles</Nav.Link>
             <Nav.Link href="#action2">Toys & Baby</Nav.Link>
             <Nav.Link href="#action2">Medicines</Nav.Link>
+            <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+            <Nav.Link href="/randring">Useref</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
